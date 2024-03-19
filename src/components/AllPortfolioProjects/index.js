@@ -1,13 +1,10 @@
 import { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import data from '../Blog/BlogData';
 import styles from './styles.module.css';
-//import Card from '../Portfolio/Card';
 import Card from './Card';
 
 import PortfolioData from '../Portfolio/PortfolioData';
-import style from 'react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark';
 
 const categories = [
   'TODOS',
@@ -25,14 +22,6 @@ function Index() {
 
   function filterProjects(category) {
     if (category !== 'TODOS') {
-      /* const list = [];
-      MyGroupsList.forEach((x) => {
-        const groupName = x.nombre_grupo.toLowerCase();
-        if (groupName.indexOf(e.target.value.toLowerCase()) >= 0) {
-          list.push(x);
-        }
-      });
-      setSearchList(list); */
       const list = PortfolioData.filter(
         (project) => project.category === category,
       );
@@ -51,14 +40,6 @@ function Index() {
           <h4>VISITA LOS PROYECTOS DE MI PORTFOLIO</h4>
           <h1>Portfolio</h1>
         </div>
-        {/* <div className={styles.tagsContainer}>
-          <p>Categorias-&gt;</p>
-
-          <span className={styles.tag}>APPLICATION</span>
-          <span className={styles.tag}>WEB DESIGN</span>
-          <span className={styles.tag}>MOVILE</span>
-          <span className={styles.tag}>DESKTOP</span>
-        </div> */}
         <div className={styles.tagsContainer}>
           <p>Filtrar Categorias-&gt;</p>
           <ul className={styles.tabs}>
@@ -77,7 +58,6 @@ function Index() {
                 >
                   {category}
                 </button>
-                {/* <span className={styles.divider}>|</span> */}
               </li>
             ))}
           </ul>

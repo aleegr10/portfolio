@@ -481,15 +481,35 @@ function AboutMe() {
               className={styles.img}
             />
             <h1>Alejandro Gil</h1>
-            <a
-              title="Buy me a coffe"
-              className={styles.supportBtn}
-              href={constants.profilesUrls.buymeacoffee}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              APOYAME
-            </a>
+            <div className={styles.socialContainer}>
+              <a
+                title="contact github"
+                href={constants.profilesUrls.github}
+                className="btnShadow"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i className="fa-brands fa-github" />
+              </a>
+              <a
+                title="contact linkedin"
+                href={constants.profilesUrls.linkedin}
+                className="btnShadow"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i className="fa-brands fa-linkedin-in" />
+              </a>
+              <a
+                title="contact whatsapp"
+                href={constants.profilesUrls.whatsapp}
+                className="btnShadow"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i className="fab fa-whatsapp" />
+              </a>
+            </div>
             <p>Desarrollo web, IA y Ciberseguridad con ❤️ y ☕️</p>
             <p>&#x1F1EA;&#x1F1F8;</p>
           </div>

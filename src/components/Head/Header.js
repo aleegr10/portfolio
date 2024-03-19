@@ -112,15 +112,6 @@ const Header = () => {
                 inicio
               </a>
             </li>
-            <li className="features">
-              <a
-                title="habilidades"
-                href="#!"
-                onClick={() => handleLink('features')}
-              >
-                habilidades
-              </a>
-            </li>
             <li className="portfolio">
               <a
                 title="portfolio"
@@ -130,23 +121,13 @@ const Header = () => {
                 portfolio
               </a>
             </li>
-            <li className="about">
-              <a title="SOBRE MI" href="#!" onClick={() => setModal(true)}>
-                SOBRE MI
-              </a>
-            </li>
-            <li className="clients">
+            <li className="features">
               <a
-                title="Recomendaciones"
+                title="habilidades"
                 href="#!"
-                onClick={() => handleLink('clients')}
+                onClick={() => handleLink('features')}
               >
-                Recomendaciones
-              </a>
-            </li>
-            <li className="blog">
-              <a title="blog" href="#!" onClick={() => handleLink('blog')}>
-                blog
+                habilidades
               </a>
             </li>
             <li className="contact">
@@ -158,20 +139,16 @@ const Header = () => {
                 contacto
               </a>
             </li>
+            <li className="about">
+              <a title="SOBRE MI" href="#!" onClick={() => setModal(true)}>
+                SOBRE MI
+              </a>
+            </li>
             <li>
               <a title="config" href="#!" onClick={() => handleOpen()}>
                 <i className={styles.cogBtn} title="Theme Config" />
               </a>
             </li>
-            {/*  <li>
-              <button
-                className={styles.homeBtn}
-                type="button"
-                onClick={() => setModal(true)}
-              >
-                APOYAME
-              </button>
-            </li> */}
             {isReadyForInstall ? (
               <li>
                 <button
@@ -194,7 +171,6 @@ const Header = () => {
               </li>
             )}
           </ul>
-          {/*  {Mobile && ( */}
           {true && (
             <ul
               className={`${styles.navMobileLinks} ${
@@ -206,6 +182,15 @@ const Header = () => {
                   inicio
                 </a>
               </li>
+              <li className="portfolio">
+                <a
+                  title="portfolio"
+                  href="#!"
+                  onClick={() => handleLink('portfolio')}
+                >
+                  portfolio
+                </a>
+              </li>
               <li className="features">
                 <a
                   title="habilidades"
@@ -215,13 +200,13 @@ const Header = () => {
                   habilidades
                 </a>
               </li>
-              <li className="portfolio">
+              <li className="contact">
                 <a
-                  title="portfolio"
+                  title="contacto"
                   href="#!"
-                  onClick={() => handleLink('portfolio')}
+                  onClick={() => handleLink('contact')}
                 >
-                  portfolio
+                  contacto
                 </a>
               </li>
               <li className="about">
@@ -234,29 +219,6 @@ const Header = () => {
                   }}
                 >
                   sobre mi
-                </a>
-              </li>
-              <li className="Recomendaciones">
-                <a
-                  title="contacto"
-                  href="#!"
-                  onClick={() => handleLink('clients')}
-                >
-                  Recomendaciones
-                </a>
-              </li>
-              <li className="blog">
-                <a title="blog" href="#!" onClick={() => handleLink('blog')}>
-                  blog
-                </a>
-              </li>
-              <li className="contact">
-                <a
-                  title="contacto"
-                  href="#!"
-                  onClick={() => handleLink('contact')}
-                >
-                  contacto
                 </a>
               </li>
               <li>

@@ -10,8 +10,8 @@ const CATEGORIES = [
 const data = [
   {
     id: 1,
-    year: '2022',
-    date: '16/3/2022',
+    year: '2024',
+    date: '0/0/2024',
     category: 'WEB DESIGN',
     title: 'Mi Portfolio',
     image: 'portfolio.webp',
@@ -32,12 +32,12 @@ const data = [
     ],
     desc: `Mi sitio web personal estilo Neumorfismo.
      Este proyecto me tomo mucho trabajo solo para poder expresar lo que hago y lo que me gusta hacer. 
-     Este portfolio es una PWA, asi que puedes instalar la aplicacion en tu dispositivo.
+     Este portafolio es una PWA, asi que puedes instalar la aplicacion en tu dispositivo.
     
      Ademas viene con un pequeño blog usando markdown. Espero que te guste <3.`,
     links: {
-      code: 'https://github.com/Tono2007/portfolio',
-      page: 'https://antonioayola.netlify.app/',
+      code: 'https://github.com/aleegr10/portfolio',
+      page: 'https://alejandrogil.netlify.app/',
     },
   },
   {

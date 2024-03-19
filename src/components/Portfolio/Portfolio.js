@@ -25,7 +25,7 @@ const Portfolio = () => {
           <AllPortfolioProjects />
         </Suspense>
       </Modal>
-      <section className={styles.portfolio} id="portfolio" ref={sectionRef}>
+      <section className={styles.folio} id="portfolio" ref={sectionRef}>
         <div className="container">
           <div
             className={`${styles.heading} ${
@@ -44,12 +44,6 @@ const Portfolio = () => {
             VER TODOS LOS PROYECTOS
           </button>
           <div className={styles.contentGrid}>
-            {/* {PortfolioData.slice(0) //clonar array para poder usar reverse()
-              .reverse()
-              .slice(0, 3)
-              .map((project, index) => (
-                <Card key={index} project={project} />
-              ))} */}
             <Card project={PortfolioData[2]} />
             <Card project={PortfolioData[4]} />
             <Card project={PortfolioData[6]} />

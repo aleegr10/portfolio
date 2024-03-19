@@ -64,12 +64,10 @@
   composes: bgPattern from global;
   background-size: .9375rem .9375rem;
 }
-
 .socialContainer a {
   margin-top: .625rem;
   /*  margin-right: 25px; */
 }
-
 .socialContainer a i {
   font-size: 1.25rem;
 }

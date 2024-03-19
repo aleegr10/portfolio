@@ -103,11 +103,20 @@
   max-width: 100%;
   height: auto;
 }
-.supportBtn {
-  composes: smallBtnShadow from global;
-  display: inline-block;
-  margin: .625rem 0;
-  color: var(--primaryColor);
+.socialContainer {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* composes: bgPattern from global; */
+  background-size: .9375rem .9375rem;
+}
+.socialContainer a {
+  margin-top: .625rem;
+  /*  margin-right: 25px; */
+}
+.socialContainer a i {
+  font-size: 1.25rem;
 }
 
 .aboutContainer h1 {
@@ -137,11 +146,12 @@
   margin: 1.25rem 0;
 }
 .skillsContainer h2{
-  color: black;
+  color: var(--textPrimary);
   flex-basis: 100%;
   margin: 0;
 }
 .skillsContainer h4 {
+  color: var(--textPrimary);
   flex-basis: 100%;
   margin: 0;
   margin-top: 2rem;

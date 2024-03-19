@@ -157,7 +157,7 @@ const Contact = () => {
 
         <div className={styles.right}>
           <p>
-            <i className="fas fa-envelope" /> Llena este formulario y mandame un
+            <i className="fas fa-envelope" /> Llena este formulario y mándame un
             mensaje
           </p>
           <form onSubmit={submit} className={styles.form}>

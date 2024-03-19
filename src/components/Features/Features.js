@@ -25,7 +25,6 @@ function Features() {
           {data.map((feature, index) => (
             <div key={index} className={isInViewportTop ? styles.slideIn : ''}>
               <Card
-                image={feature.image}
                 title={feature.title}
                 description={feature.description}
                 icon={feature.icon}

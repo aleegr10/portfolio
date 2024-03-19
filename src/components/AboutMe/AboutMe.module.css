@@ -136,6 +136,16 @@
   flex-wrap: wrap;
   margin: 1.25rem 0;
 }
+.skillsContainer h2{
+  color: black;
+  flex-basis: 100%;
+  margin: 0;
+}
+.skillsContainer h4 {
+  flex-basis: 100%;
+  margin: 0;
+  margin-top: 2rem;
+}
 .skillsContainer a {
   transition: 0.3s;
   border-radius: .625rem;

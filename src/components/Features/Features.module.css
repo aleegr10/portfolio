@@ -4,14 +4,13 @@
 
 .contentGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1.875rem;
   column-gap: 2.8125rem;
   -webkit-perspective: 1000;
 }
 
 .slideIn {
-  /* composes: slideAnimation; */
   composes: useSlideAnimation from global;
 }
 .slideIn:nth-child(3) {
@@ -26,7 +25,8 @@
 .card {
   composes: btnShadow from global;
   padding: 2.5rem;
-  cursor:auto;
+  cursor: auto;
+  height: 100%;
 }
 
 .card h2 {

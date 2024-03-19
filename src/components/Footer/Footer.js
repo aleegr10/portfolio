@@ -43,9 +43,9 @@ const Footer = () => {
               onClick={() => setModal(true)}
               className={styles.userBtn}
             >
-              @AntonioAyola{' '}
+              @AlejandroGil{' '}
             </button>{' '}
-            con 🖤 en 2022 &#x1F1F2;&#x1F1FD;
+            con 🩶 en 2024 &#x1F1EA;&#x1F1F8;
           </p>
           <img src={line} alt="" className={styles.svg} />
           <img src={line} alt="" className={styles.svg} />
@@ -62,17 +62,14 @@ const Footer = () => {
             <i className="fas fa-angle-double-up" />
           </button>
         </div>
-        <p className={styles.visitas}>
-          Num. Visitas
+        <br />
+        <center className={styles.visitas}>
+          <p>Num visitas</p>
           <img
-            width="20px"
-            height="10px"
-            src="https://counter1.stat.ovh/private/contadorvisitasgratis.php?c=1am2er4yl9uq6du4qfz5hdqc3enw75xt"
-            border="0"
-            title="contador de visitas"
             alt="contador de visitas"
+            src="https://websmultimedia.com/contador-de-visitas.php?id=16159"
           />
-        </p>
+        </center>
       </footer>
     </>
   );

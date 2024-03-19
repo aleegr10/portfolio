@@ -1,52 +1,48 @@
 const data = [
   {
     id: 1,
+    title: 'Adaptabilidad Tecnológica:',
     image: 'https://picsum.photos/50/50?random=1',
-    title: 'Adaptable',
-    icon: 'fas fa-mobile-alt main',
+    icon: 'fas fa-cogs main',
 
     description:
-      'Capacidad para definir estrategias para obtener sitios web adaptables a diferentes tipos de dispositivos.',
+      'Habilidad para adaptar estrategias y tecnologías a las cambiantes demandas del mercado, asegurando que los sitios web y aplicaciones sean compatibles con una variedad de dispositivos y plataformas.',
   },
   {
     id: 2,
-    image: 'https://picsum.photos/50/50?random=2',
-    icon: 'fas fa-code main',
-    title: 'Desarrollo',
+    icon: 'fas fa-server main',
+    title: 'Desarrollo Escalable y Mantenible:',
     description:
-      'Creación de aplicaciones escalables y mantenibles para resolver problemas. Me gustan los retos.',
+      'Creación de soluciones robustas y escalables que abordan problemas complejos de manera eficiente, manteniendo un código limpio y fácil de mantener a lo largo del tiempo.',
   },
   {
     id: 3,
-    image: 'https://picsum.photos/50/50?random=3',
-    icon: 'fas fa-globe main',
-    title: 'Rendimiento',
+    icon: 'fas fa-tachometer-alt main',
+    title: 'Optimización de Rendimiento:',
     description:
-      'Los sitios web de alto rendimiento para los usuarios son un punto a favor, yo me encargo de eso.',
+      'Especialización en optimizar el rendimiento de aplicaciones y sitios web, garantizando una experiencia rápida y fluida para los usuarios finales.',
   },
-  /* {
+  {
     id: 4,
-    image: 'https://picsum.photos/50/50?random=3',
-    icon: 'fas fa-globe main',
-    title: 'Mejor Diseño Mejor Experiencia',
-    description: 'Muestra diseños innovadores y experiencia de usuario únicos',
+    icon: 'fas fa-paint-brush main',
+    title: 'Diseño Innovador y Experiencia de Usuario:',
+    description:
+      'Compromiso con el diseño de interfaces innovadoras y experiencias de usuario intuitivas, combinando conocimientos de diseño y desarrollo para ofrecer soluciones únicas y atractivas.',
   },
   {
     id: 5,
-    image: 'https://picsum.photos/50/50?random=3',
-    icon: 'fas fa-globe main',
-    title: 'Patrones',
+    icon: 'fas fa-search main',
+    title: 'Análisis de Patrones y Resolución de Problemas:',
     description:
-      'Estudio de diseño de patrones para resolución persistentes en el desarrollo web',
+      'Experiencia en identificar y aplicar patrones de diseño efectivos para abordar desafíos persistentes en el desarrollo web y la arquitectura de aplicaciones.',
   },
   {
     id: 6,
-    image: 'https://picsum.photos/50/50?random=3',
-    icon: 'fas fa-globe main',
-    title: 'Web App',
+    icon: 'fas fa-laptop-code main',
+    title: 'Adopción de Nuevas Tecnologías:',
     description:
-      'El uso de nuevas tecnologías para la resolución de problemas en aplicaciones web',
-  }, */
+      'Utilización de tecnologías emergentes para resolver problemas y mejorar continuamente las aplicaciones web, manteniéndote al tanto de las últimas tendencias y herramientas en el campo del desarrollo de software.',
+  },
 ];
 
 export default data;

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import hero from '../../assets/me.webp';
 import styles from './AboutMe.module.css';
 import { constants } from '../../utils/constants';
+import pdf from '../../assets/curriculum.pdf';
 
 const lenguajes = [
   {
@@ -461,7 +462,9 @@ function CV() {
       <h2>CV Privado</h2>
       <p>Dirigete a la sección de contacto.</p>
       <button type="button" className="boxShadow" disabled>
-        DESCARGA CV
+        <a href={pdf} alt="curriculum">
+          DESCARGAR CV
+        </a>
       </button>
     </>
   );

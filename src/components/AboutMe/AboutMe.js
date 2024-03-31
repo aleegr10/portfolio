@@ -517,7 +517,7 @@ function AboutMe() {
                 <i className="fab fa-whatsapp" />
               </a>
             </div>
-            <p>Desarrollo web, IA y Ciberseguridad con ❤️ y ☕️</p>
+            <p>Desarrollo web, IA y Ciberseguridad.</p>
             <p>&#x1F1EA;&#x1F1F8;</p>
           </div>
         </div>

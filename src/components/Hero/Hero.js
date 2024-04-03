@@ -24,10 +24,7 @@ function Hero() {
       id="home"
       ref={sectionRef}
     >
-      {/*       <div className={styles.boxP}>ss</div>
-      <div className={styles.boxS}>f</div> */}
-      {/*       <div className="container f_flex top">
-       */}{' '}
+      {' '}
       <div className={styles.heroContainer}>
         <div className={styles.heroLeft}>
           <h4

@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import styles from './Contact.module.css';
 import { constants } from '../../utils/constants';
 import useIsInViewportOnce from '../../utils/hooks/useIsInViewportOnce';
-import me from '../../assets/me.webp';
+import me from '../../assets/me.png';
 
 // Definir la función showMessage fuera del componente para evitar recreaciones innecesarias
 const showMessage = (message, duration = 2000) => {

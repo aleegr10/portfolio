@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import hero from '../../assets/me.webp';
+import hero from '../../assets/me.png';
 import styles from './AboutMe.module.css';
 import { constants } from '../../utils/constants';
-import pdf from '../../assets/curriculum.pdf';
 
 const lenguajes = [
   {
@@ -460,13 +459,13 @@ function Experience() {
 function CV() {
   return (
     <>
-      <h2>CV Privado</h2>
+      <h2>CV</h2>
       <p>
         Descarga aquí mi currículum. Si lo prefieres,puedes dirigirte a la
         sección de contacto y mandarme un correo.
       </p>
       <button type="button" className="boxShadow" disabled>
-        <a href={pdf} alt="curriculum">
+        <a href="https://www.canva.com/design/DAF5V8qXKyI/KsJbt2UleZXP-V6weA4xmw/view?utm_content=DAF5V8qXKyI&utm_campaign=designshare&utm_medium=link&utm_source=editor" alt="curriculum">
           DESCARGAR CV
         </a>
       </button>
@@ -480,7 +479,7 @@ function AboutMe() {
     <section className={styles.aboutMe} id="about">
       <div className={styles.aboutContainer}>
         <div className={styles.AboutLeft}>
-          <span>Actualizado el 31 de Marzo de 2024</span>
+          <span>Actualizado el 3 de Abril de 2024</span>
           <div className={styles.leftImg}>
             <img
               src={hero}

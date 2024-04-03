@@ -465,7 +465,10 @@ function CV() {
         sección de contacto y mandarme un correo.
       </p>
       <button type="button" className="boxShadow" disabled>
-        <a href="https://www.canva.com/design/DAF5V8qXKyI/KsJbt2UleZXP-V6weA4xmw/view?utm_content=DAF5V8qXKyI&utm_campaign=designshare&utm_medium=link&utm_source=editor" alt="curriculum">
+        <a
+          href="https://www.canva.com/design/DAF5V8qXKyI/KsJbt2UleZXP-V6weA4xmw/view?utm_content=DAF5V8qXKyI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          alt="curriculum"
+        >
           DESCARGAR CV
         </a>
       </button>

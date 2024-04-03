@@ -45,7 +45,7 @@ const Footer = () => {
             >
               @AlejandroGil{' '}
             </button>{' '}
-            con ❤ en 2024 &#x1F1EA;&#x1F1F8;
+            con 🤍 en 2024 &#x1F1EA;&#x1F1F8;
           </p>
           <img src={line} alt="" className={styles.svg} />
           <img src={line} alt="" className={styles.svg} />

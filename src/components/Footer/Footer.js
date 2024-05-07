@@ -67,7 +67,7 @@ const Footer = () => {
           <p>Num visitas</p>
           <img
             alt="contador de visitas"
-            src="https://websmultimedia.com/contador-de-visitas.php?id=16327"
+            src="https://counter4.optistats.ovh/private/contadorvisitasgratis.php?c=b543y1xe26bnbeltfqu475xajjwqnbmz"
           />
         </center>
       </footer>

@@ -452,6 +452,10 @@ function Experience() {
         <p>- PROTECCIÓN DE EQUIPOS EN LA RED, 20 HORAS</p>
         <p>- DESARROLLO WEB PARA COMERCIO ELECTRÓNICO, 450 HORAS</p>
         <p>- GESTIÓN DE LA SEGURIDAD INFORMÁTICA EN LA EMPRESA, 150 HORAS</p>
+        <p>
+          - ANÁLISIS DE DATOS CON EXCEL: POWER QUERY, POWER PIVOT Y POWER BI, 60
+          HORAS
+        </p>
       </div>
     </>
   );
@@ -482,7 +486,7 @@ function AboutMe() {
     <section className={styles.aboutMe} id="about">
       <div className={styles.aboutContainer}>
         <div className={styles.AboutLeft}>
-          <span>Actualizado el 3 de Abril de 2024</span>
+          <span>Actualizado el 7 de Mayo de 2024</span>
           <div className={styles.leftImg}>
             <img
               src={hero}

@@ -66,8 +66,10 @@ const Footer = () => {
         <center className={styles.visitas}>
           <p>Num visitas</p>
           <img
-            alt="contador de visitas"
-            src="https://counter4.optistats.ovh/private/contadorvisitasgratis.php?c=b543y1xe26bnbeltfqu475xajjwqnbmz"
+            src="https://counter4.optistats.ovh/private/contadorvisitasgratis.php?c=n8nl578ltq239ds7fk4ngceeaxpbmp5e"
+            border="0"
+            title="contador de visitas en mi web"
+            alt="contador de visitas en mi web"
           />
         </center>
       </footer>
